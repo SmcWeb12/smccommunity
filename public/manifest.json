@@ -1,0 +1,25 @@
+{
+  "short_name": "SMC COMMUNITY",
+  "name": "SMC GODDA COMMUNITY",
+  "icons": [
+    {
+      "src": "425981977_705322578217267_8765900517146291504_n.jpg",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "425981977_705322578217267_8765900517146291504_n.jpg",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "425981977_705322578217267_8765900517146291504_n.jpg",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

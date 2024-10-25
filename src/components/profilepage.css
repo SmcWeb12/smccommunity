@@ -1,0 +1,38 @@
+.profile-page {
+    padding: 20px;
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .profile-input {
+    margin: 10px 0;
+    display: block;
+  }
+  
+  .profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  
+  .default-profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .save-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+  }
+  
+  .error-message {
+    color: red;
+    margin-top: 10px;
+  }
+  

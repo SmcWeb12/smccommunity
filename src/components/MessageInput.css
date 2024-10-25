@@ -1,0 +1,70 @@
+.message-input-container {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-top: 1px solid #ce0c0c;
+}
+
+.user-profile {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.user-profile-pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.user-placeholder {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #e61e1e; /* Placeholder color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-name {
+  font-weight: bold;
+}
+
+.upload-icon {
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.message-input {
+  flex: 1;
+  border: 1px solid #1808f0;
+  border-radius: 5px;
+  padding: 8px;
+  resize: none;
+}
+
+.send-button {
+  background-color: #59f0f5;
+  color: rgb(9, 5, 252);
+  border: none;
+  border-radius: 5px;
+  padding: 8px 12px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.loading-spinner {
+  border: 2px solid transparent;
+  border-top: 2px solid white;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

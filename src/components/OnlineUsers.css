@@ -1,0 +1,23 @@
+.online-users-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  .online-users-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .online-user {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .online-user:last-child {
+    border-bottom: none;
+  }
+  

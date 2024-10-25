@@ -1,0 +1,22 @@
+/* src/App.css */
+.App {
+  text-align: center;
+}
+
+.chat-window {
+  border: 1px solid #ccc;
+  height: 300px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+}
+
+input {
+  flex: 1;
+  margin-right: 5px;
+}
